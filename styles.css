@@ -43,7 +43,7 @@ body{
 
 .page-header{
   font-weight: 1700;
-  font-size: 52px;
+  font-size: 72px;
   color: #fff;
 }
 
@@ -71,7 +71,7 @@ body{
 }
 
 .wrapper .profile .profile_img_info .img{
-  width: 225px;
+  width: 248px;
 }
 
 .wrapper .profile .profile_img_info .img img{
@@ -87,8 +87,8 @@ body{
 }
 
 .wrapper .profile .profile_img_info .info .name{
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 34px;
+  font-weight: 400;
   margin-bottom: 5px;
 }
 
@@ -108,15 +108,15 @@ body{
   border-bottom: 1px solid #cccccc;
 }
 
-.wrapper .profile .profile_skills .skills p{
+.wrapper .profile .profile_skills .skills .sub-head{
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 900;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
 .wrapper .profile .profile_skills .skills ul li{
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 5px;
 }
 
@@ -176,4 +176,9 @@ body{
 
 .wrapper .profile_counts .profile_counts_wrap .item .title{
   font-size: 14px;
+}
+
+.profile_skills .skills .speech{
+    font-weight: 400;
+    font-size: 16px;
 }
